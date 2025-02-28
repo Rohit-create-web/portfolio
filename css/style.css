@@ -1,0 +1,229 @@
+html{
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #08171e;
+    
+}
+.header{
+    width: 100vw;
+  height: 10%;
+position: fixed;
+top: 0;
+display: flex;
+background-color: #042b44;
+display: flex;
+color: white;
+justify-content: space-between;
+align-items: center;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+font-weight: bold;
+font-size: xx-large;
+margin-left: 30px;
+}
+
+#logo{
+    color: #71b7d5;
+    font-size: 45px;
+}
+a .wa{
+color: #71b7d5;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul a:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+.wa:hover , .ins:hover , .fb:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+.home{
+    height: 80%;
+    width: 100%; 
+    display: flex;
+     margin-top:5%;
+}
+.col_1{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 50%;
+   color: gold;
+    
+}
+.col_2{
+   /* background-color: aqua; */
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+.main_photo{
+height: 400px;
+width: 400px;
+}
+.img{
+    margin-left: 50px;
+}
+figcaption{
+    margin-left: 70px;
+   
+}
+.btb{
+    margin-left: 30px; 
+}
+.css{
+    margin-left: 50px;
+    text-align: center;
+}
+.bw{
+    text-align: center;
+}
+
+.Nam{
+padding: 10px;
+width: 300px;
+}
+.buttock{
+    padding: 10px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+/* ---------------------------------------------------media query----------------------------------- */
+@media screen and (max-width: 600px)
+{
+    
+    .header, .logo , .social, .nav{
+       visibility: hidden;
+    }
+   .home{
+justify-content: center;
+align-items: center;display: flex;
+   } 
+   .rohit{
+    font-size: medium;
+   }
+   #home{
+    display: flex;
+    flex-direction: column;
+   }
+   .how{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: auto;
+   }
+.img{
+    display: flex;
+
+    flex-direction: column;
+}
+.main_blog{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   margin-left: 40px;
+}
+.USdepartment:hover{
+    scale:0.9;
+    transition: 0.5s;
+
+}
+#imaaa{
+    
+    margin-top: 30px;
+   
+  
+}
+
+#cunt{
+    margin-top: 400px;
+    margin-left: 50px;
+}
+#bolog{
+    margin-top: 500px;
+}
+#wer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+#rohitey{
+    height: 500px;
+    width: 500px;
+    margin-left: 70px;
+}
+#mains{
+    font-size: x-large;
+    margin-left: 70px;
+   
+}
+#foot{
+    width: 100vw;
+}
+#btn{
+    margin-left: 80px;
+}
+#master{
+width: 400px;
+margin-left: 20px;
+}
+#job{
+font-size: 50px;
+margin-left: 60px;
+}
+#para{
+    width: 400px;
+  
+   
+    margin-left: 20px;
+}
+#mainto{
+    font-size: x-large;
+margin-left: 70px;
+}
+.USdepartment{
+  margin-left: 50px;
+}
+footer{
+    padding: 40px;
+    width: 600px;
+    background-color: #042b44;
+    margin-left: 50px;
+}
+.sw{
+    margin-top: 10px;
+}
+}
+
